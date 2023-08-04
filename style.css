@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .slider {
+    @apply  w-full h-full touch-pan-y mx-auto overflow-clip p-0 block
+  }
+
+  .slider-wrapper {
+    @apply relative w-full h-full flex box-content
+  }
+
+  .slider-slide {
+    @apply justify-center flex-shrink-0 w-full h-full relative transition-transform
+  }
+}
